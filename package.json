@@ -1,12 +1,17 @@
 {
-  "name": "seform-adapter-sequelize",
+  "name": "conform-adapter-sequelize",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "seform": "git+https://github.com/gustavpursche/seform.git"
+    "conform": "git+https://github.com/gustavpursche/conform.git",
+    "lodash": "^3.10.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "sequelize": "^3.3.2",
+    "sqlite3": "^3.0.8"
+  },
   "author": "Gustav Pursche",
   "license": "MIT"
 }
