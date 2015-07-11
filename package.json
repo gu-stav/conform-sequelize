@@ -1,0 +1,12 @@
+{
+  "name": "seform-adapter-sequelize",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "seform": "git+https://github.com/gustavpursche/seform.git"
+  },
+  "devDependencies": {},
+  "author": "Gustav Pursche",
+  "license": "MIT"
+}
